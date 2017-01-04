@@ -1,0 +1,14 @@
+
+package Application;
+import Domain.Conta;
+
+public class TesteDeConta {
+	
+	public static void main(String[] args) {
+		
+		Conta conta = new Conta("Carlos");
+		conta.Depositar(17500);
+		System.out.println(conta);
+	}
+
+}
